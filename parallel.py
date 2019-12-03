@@ -15,16 +15,16 @@ class Box:
 
     def get_length(self):
         """Define request for parameter input by user"""
-        return self.length
+        return self._length
 
     def get_width(self):
         """Define request for parameter input by user"""
-        return self.width
+        return self._width
 
     def get_height(self):
         """Define request for parameter input by user"""
-        return self.height
+        return self._height
 
     def get_volume(self):
         """Calculate the volume of Box object"""
-        return self.length * self.width * self.height
+        return self._length * self._width * self._height
