@@ -9,9 +9,9 @@ class Box:
 
     def __init__(self, length, width, height):
         """Define obligatory parameters of Box object"""
-        self.length = length
-        self.width = width
-        self.height = height
+        self._length = length
+        self._width = width
+        self._height = height
 
     def get_length(self):
         """Define request for parameter input by user"""
